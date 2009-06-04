@@ -25,10 +25,9 @@
 
   NSRunAlertPanel(@"url given", URL, @"OK", nil, nil);
 
-  ElephantPreferencePane *preferences = 
-    [[ElephantPreferencePane alloc] init];
+  ElephantPreferencePane *preferences = [[ElephantPreferencePane alloc] init];
 
-  [[adium preferencePaneForPlugin:preferences] retain];
+  [[preferences preferencePaneForPlugin:self] retain];
   
   [[adium chatController] registerChatObserver:self];
 }
