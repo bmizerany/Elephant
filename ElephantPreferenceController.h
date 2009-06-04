@@ -1,5 +1,5 @@
 //
-//  ElephantPreferencePane.h
+//  ElephantPreferenceController.h
 //  Elephant
 //
 //  Created by blake on 6/4/09.
@@ -10,7 +10,7 @@
 #import <Adium/AIAdvancedPreferencePane.h>
 
 
-@interface ElephantPreferencePane : AIAdvancedPreferencePane {
+@interface ElephantPreferenceController : AIAdvancedPreferencePane {
 
 }
 

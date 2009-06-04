@@ -15,13 +15,11 @@
 #import <Adium/AIPreferencePane.h>
 #import <Adium/AIPreferenceControllerProtocol.h>
 
-#import "ElephantPreferencePane.h"
+#import "ElephantPreferenceController.h"
 
 @interface Elephant : AIPlugin < AIChatObserver >
 {
   NSString *URL;
 }
-
--(NSString *)askForUrl;
 
 @end
